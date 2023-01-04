@@ -43,11 +43,11 @@ csmc #students #tutors #chairs #help
 ./csmc 2 2 2 1
 
 # Sample output
-S: Student 1 takes a seat. Empty chairs = 1.
-S: Student 2 takes a seat. Empty chairs = 0.
-C: Student 1 with priority 0 added to the queue. Waiting students now = 1. Total requests = 1
-T: Student 1 tutored by Tutor 1. Students tutored now = 0. Total sessions tutored = 1
-S: Student 1 received help from Tutor 1.
-C: Student 2 with priority 0 added to the queue. Waiting students now = 1. Total requests = 2
-T: Student 2 tutored by Tutor 2. Students tutored now = 0. Total sessions tutored = 2
-S: Student 2 received help from Tutor 2.
+S: Student 1 takes a seat. Empty chairs = 1.  
+S: Student 2 takes a seat. Empty chairs = 0.  
+C: Student 1 with priority 0 added to the queue. Waiting students now = 1. Total requests = 1  
+T: Student 1 tutored by Tutor 1. Students tutored now = 0. Total sessions tutored = 1  
+S: Student 1 received help from Tutor 1.  
+C: Student 2 with priority 0 added to the queue. Waiting students now = 1. Total requests = 2  
+T: Student 2 tutored by Tutor 2. Students tutored now = 0. Total sessions tutored = 2  
+S: Student 2 received help from Tutor 2.  
