@@ -1,6 +1,6 @@
-# Seeking-Tutor-Problem
+# 🧑‍🏫🧑‍🎓🏫 Seeking-Tutor-Problem
 
-Here, I have implemented a solution that synchronizes the activities 
+This repo is the implementation of a solution that synchronizes the activities 
 of the coordinator, tutors, and students using POSIX threads, mutex 
 locks, and semaphores. Original problem described below.
 
@@ -33,16 +33,17 @@ the priority of the student visiting to take help for the kth time
 for any k > i. If two students have the same priority, then the 
 student who came first has a higher priority.
 
-# Compilation format
-gcc csmc.c -o csmc -Wall -Werror -pthread -std=gnu99
+## 🔧 Compilation format
+>```gcc csmc.c -o csmc -Wall -Werror -pthread -std=gnu99```
 
-# Input format
-csmc #students #tutors #chairs #help
+## ✏️ Input format
+>```csmc #students #tutors #chairs #help```
 
-# Sample input
-./csmc 2 2 2 1
+## 📌 Sample input
+>```./csmc 2 2 2 1```
 
-# Sample output
+## 🖨️ Sample output
+````
 S: Student 1 takes a seat. Empty chairs = 1.  
 S: Student 2 takes a seat. Empty chairs = 0.  
 C: Student 1 with priority 0 added to the queue. Waiting students now = 1. Total requests = 1  
@@ -50,4 +51,5 @@ T: Student 1 tutored by Tutor 1. Students tutored now = 0. Total sessions tutore
 S: Student 1 received help from Tutor 1.  
 C: Student 2 with priority 0 added to the queue. Waiting students now = 1. Total requests = 2  
 T: Student 2 tutored by Tutor 2. Students tutored now = 0. Total sessions tutored = 2  
-S: Student 2 received help from Tutor 2.  
+S: Student 2 received help from Tutor 2.
+````
