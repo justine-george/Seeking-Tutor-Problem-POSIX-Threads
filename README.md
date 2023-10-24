@@ -33,16 +33,22 @@ the priority of the student visiting to take help for the kth time
 for any k > i. If two students have the same priority, then the 
 student who came first has a higher priority.
 
-## 🔧 Compilation format
->```gcc csmc.c -o csmc -Wall -Werror -pthread -std=gnu99```
+## Compilation format
+```
+gcc csmc.c -o csmc -Wall -Werror -pthread -std=gnu99
+```
 
-## ✏️ Input format
->```csmc #students #tutors #chairs #help```
+## Input format
+```
+./csmc #students #tutors #chairs #help
+```
 
-## 📌 Sample input
->```./csmc 2 2 2 1```
+## Sample input
+```
+./csmc 2 2 2 1
+```
 
-## 🖨️ Sample output
+## Sample output
 ````
 S: Student 1 takes a seat. Empty chairs = 1.  
 S: Student 2 takes a seat. Empty chairs = 0.  
