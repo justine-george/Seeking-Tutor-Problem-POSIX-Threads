@@ -1,4 +1,4 @@
-# Seeking-Tutor-Problem
+# Multi-threaded POSIX Simulation of a Mentoring Center with Priority Scheduling (aka Seeking-Tutor-Problem)
 
 This repository contains an implementation that models and synchronizes the activities of a coordinator, tutors, and students in a mentoring center using POSIX threads, mutex locks, and semaphores, as per the original problem described below.
 
